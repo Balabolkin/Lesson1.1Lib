@@ -3,9 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson1.1Lib", "Lesson1.1Lib\Lesson1.1Lib.csproj", "{85AFC6B6-F760-4C7A-B5BC-4566DB65D350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson1.1Lib", "Lesson1.1Lib\Lesson1.1Lib.csproj", "{85AFC6B6-F760-4C7A-B5BC-4566DB65D350}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\..\Lesson1.1Lib\Test\Test.csproj", "{CA2B56B2-69B2-424D-94B0-3398580328D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "..\..\Lesson1.1Lib\Test\Test.csproj", "{CA2B56B2-69B2-424D-94B0-3398580328D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85AFC6B6-F760-4C7A-B5BC-4566DB65D350} = {85AFC6B6-F760-4C7A-B5BC-4566DB65D350}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
